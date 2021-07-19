@@ -1,0 +1,14 @@
+.widget{
+    margin: 0  20px;
+    flex: 0.2;
+   
+}
+@media (max-width:400px){
+    .widget{
+        flex: 0;
+        width: 0%;
+        display: none;
+        width: 100vw;
+        height: 100vh;
+    }
+}

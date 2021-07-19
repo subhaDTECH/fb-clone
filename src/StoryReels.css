@@ -1,0 +1,17 @@
+.stroyreels{
+    display: flex;
+    align-items: center;
+    /* background-color: #fff; */
+    justify-content: center;
+    margin-left: 50px;
+    padding: 10px  20px;
+    flex-wrap: wrap;
+}
+@media (max-width:400px){
+    .stroyreels{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}

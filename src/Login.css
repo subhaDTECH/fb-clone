@@ -1,0 +1,26 @@
+.Login{
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #dfe6e9;
+}
+.login_btn{
+    width: 200px;
+    cursor: pointer;
+    padding: 20px 30px;
+    background-color:#0984e3;
+    text-align: center;
+    color: #fff;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    text-transform: capitalize;
+    border: 0;
+    outline: 0;
+}
+.login_btn:hover{
+    color: #0984e3;
+    background-color: #fff;
+    border: 1px solid #0984e3;
+}

@@ -1,0 +1,22 @@
+.sidebar{
+    padding: 20px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    flex: 0.2;
+   
+}
+@media (max-width:990px){
+ /* .sidebar{
+        flex: 0;
+        width: 0%;
+        display: none;
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        padding: 0px;
+    } */
+    .sidebar{
+        display:none;
+    } 
+}
